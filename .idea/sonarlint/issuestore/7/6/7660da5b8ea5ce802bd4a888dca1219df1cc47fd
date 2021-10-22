@@ -1,0 +1,9 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘
+G
+java:S1602",Remove useless curly braces around statement(œ­œûÿÿÿÿ
+P	java:S125r"<This block of commented-out lines of code should be removed.(ò‹ÕF
+V	java:S125v"<This block of commented-out lines of code should be removed.(û«îÄùÿÿÿÿ
+l
+java:S1192D"VDefine a constant instead of duplicating this literal "Authentication failed" 4 times.(¦œ™´

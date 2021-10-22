@@ -1,0 +1,19 @@
+
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(‹€•ÿÿÿÿÿ
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(Õç„üÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(âÙ«¥üÿÿÿÿ
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(Ñä€¨
+]
+java:S3457Ï"AFormat specifiers should be used instead of string concatenation.(ö×¿üÿÿÿÿ
+]
+java:S3457æ"AFormat specifiers should be used instead of string concatenation.(İÂèÙıÿÿÿÿ
+~
+java:S14887"cImmediately return this expression instead of assigning it to the temporary variable "newEmployee".(œ†Ì¨úÿÿÿÿ
+S
+java:S2629Ï"7Use the built-in formatting to construct this argument.(ö×¿üÿÿÿÿ
+S
+java:S2629æ"7Use the built-in formatting to construct this argument.(İÂèÙıÿÿÿÿ
+?
+java:S5411N"*Use the primitive boolean expression here.(±ÃË}
+A
+java:S5411ã"*Use the primitive boolean expression here.(çŠº
