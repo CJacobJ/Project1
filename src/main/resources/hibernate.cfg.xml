@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- datasource -->
+        <property name="hibernate.connection.url">jdbc:postgresql://jpjavafs.ckkehmyqtgkr.us-east-1.rds.amazonaws.com:5432/request</property>
+        <property name="hibernate.connection.username">jacobjp</property>
+        <property name="hibernate.connection.password">CosmicPantryTrigger7</property>
+
+        <!-- driver specs -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
+
+        <!-- make things pretty -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+
+
+        <mapping class="com.expense.model.Name"/>
+        <mapping class="com.expense.model.employees.Employee"/>
+        <mapping class="com.expense.model.employees.Manager"/>
+        <mapping class="com.expense.model.requests.Request"/>
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <main>
+        <h2>Submit a new request</h2>
+        <form method="post" action="/addRequest" name="addRequest-form">
+            <label class="">
+                <input type="number" name="amount" class="amount" />
+                <span>Amount in dollars</span>
+            </label>
+            <label class="">
+                <input type="text" name="info" class="info" />
+                <span>Enter reason</span>
+            </label>
+            <button id="submit-button" class="btn primary">Submit</button>
+        </form>
+    </main>
+    <div class="toast-wrapper">
+        <div class="toast">
+            <div class="toast-content">
+                <p>This is a toast popup</p>
+            </div>
+        </div>
+    </div>
+    <script src="NewRequest.js"></script>
+</body>
+</html>
